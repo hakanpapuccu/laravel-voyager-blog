@@ -1,28 +1,40 @@
-@include('header')
+@include('header');
 <section class="section-padding">
 	<div class="container">
 		<div class="row">
-
-			@forelse($articleslimit as $article) 
-
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="category-item">
 					<div class="category-img">
-						<a href="{{route('article', $article->slug)}}"><img src="storage/{{$article->image}}" alt="" class="img-fluid w-100"></a>
+						<a href="blog-single.html"><img src="assets/images/cat/cat-4.jpg" alt="" class="img-fluid w-100"></a>
 					</div>
 					<div class="content">
-						<a href="#" class="text-color text-uppercase font-sm letter-spacing font-extra">{{$article->getCategory['name']}}</a>
-						<h4><a href="storage/{{$article->image}}">{{$article->title}}</a></h4>
+						<a href="#" class="text-color text-uppercase font-sm letter-spacing font-extra">lifestyle</a>
+						<h4><a href="blog-single.html">Managing your time In 3 easy steps</a></h4>
 					</div>
 				</div>
 			</div>
-
-			@empty 
-
-			Veri bulunamadı
-
-			@endforelse	
-			
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<div class="category-item">
+					<div class="category-img">
+						<a href="blog-single.html"><img src="assets/images/cat/cat-2.jpg" alt="" class="img-fluid w-100"></a>
+					</div>
+					<div class="content">
+						<a href="#" class="text-color text-uppercase font-sm letter-spacing font-extra">Fashion</a>
+						<h4><a href="blog-single.html">The Ultimate Summer Hat Guide</a></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<div class="category-item">
+					<div class="category-img">
+						<a href="blog-single.html"><img src="assets/images/cat/cat-3.jpg" alt="" class="img-fluid w-100"></a>
+					</div>
+					<div class="content">
+						<a href="#" class="text-color text-uppercase font-sm letter-spacing font-extra" >Travel</a>
+						<h4><a href="blog-single.html">The trip you should take this fall</a></h4>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -64,7 +76,7 @@
 							<div class="post-content mt-4">
 								<p>{{Str::limit(strip_tags($article->content), 200)}}</p>
 
-								<a href="{{route('article', $article->slug)}}" class="btn btn-grey mt-3"> read more</a>
+								<a href="blog-single.html" class="btn btn-grey mt-3"> read more</a>
 							</div>
 						</article>
 					</div>
@@ -93,11 +105,11 @@
 				</div>
 			</div>
 
-			@include('sidebar')
+			@include('sidebar');
 
-		</div>
-	</div>
-</section>
+					</div>
+				</div>
+			</section>
 
 
-@include('footer')
+			@include('footer');

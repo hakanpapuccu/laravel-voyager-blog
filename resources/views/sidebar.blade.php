@@ -1,17 +1,14 @@
-
-
-
 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="sidebar sidebar-right">
 					<div class="sidebar-wrap mt-5 mt-lg-0">
 						<div class="sidebar-widget about mb-5 text-center p-3">
 							<div class="about-author">
-								<img src="assets/images/author.jpg" alt="" class="img-fluid">
+								<img src="storage/{{$Users->avatar}}" alt="" class="img-fluid">
 							</div>
 							<h4 class="mb-0 mt-4">{{$Users->name}}</h4>
 							<p>Travel Blogger</p>
-							<p>{{Str::limit($Users->about, 100)}}</p>
-							<img src="assets/images/liammason.png" alt="" class="img-fluid">
+							<p>{{Str::limit($Users->about, 200)}}</p>
+							
 						</div>
 
 						<div class="sidebar-widget follow mb-5 text-center">
@@ -25,7 +22,7 @@
 							</div>
 						</div>
 
-						<div class="sidebar-widget mb-5 ">
+								<div class="sidebar-widget mb-5 ">
 							<h4 class="text-center widget-title">Trending Posts</h4>
 
 							<div class="sidebar-post-item-big">
@@ -62,7 +59,7 @@
 
 								<li class="align-items-center d-flex justify-content-between">
 									<a href="#">{{$category->name}}</a>
-									<span>14</span>
+									<span>{{$category->countArticle()}}</span>
 								</li>
 								
 								@empty
@@ -88,5 +85,3 @@
 					</div>
 				</div>
 			</div>
-
-	
