@@ -14,9 +14,10 @@ class HomeController extends Controller
 
         $articles=Article::orderBy('created_at' , 'DESC')->get();
         $articleslimit=Article::orderBy('created_at' , 'DESC')->limit(3)->get();
+        $randarticles=Article::inRandomOrder()->limit(3)->get();
         $categories=Category::all();
         $Users=User::first();
-        return view('index', compact('articleslimit','categories','articles','Users'));
+        return view('index', compact('randarticles' , 'articleslimit','categories','articles','Users'));
         
 
       
