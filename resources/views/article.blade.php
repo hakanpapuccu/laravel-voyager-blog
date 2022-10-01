@@ -17,7 +17,8 @@
 										<div class="post-header mb-5 text-center">
 											<div class="meta-cat">
 												
-												<a class="post-category font-extra text-color text-uppercase font-sm letter-spacing-1"  href="#">{{$article->getCategory['name']}}}</a>
+												<a class="post-category font-extra text-color text-uppercase font-sm letter-spacing-1"  href="#">
+													{{$article->getCategory['name']}}</a>
 											</div>
 											<h2 class="post-title mt-2">
 												{{$article->title}}

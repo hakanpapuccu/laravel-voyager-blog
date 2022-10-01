@@ -23,13 +23,5 @@ class HomeController extends Controller
 
     }
 
-    public function article ($slug) {
-
-
-        $article=Article::where('slug' , $slug)->first() ?? abort(404 , 'Yazı bulunamadı');
-        $categories=Category::all();
-        $Users=User::first();
-        return view('article', compact('categories','article','Users'));
-
-    }
+    
 }

@@ -41,21 +41,20 @@
 <!-- THEME JAVASCRIPT FILES
 ================================================== -->
 <!-- initialize jQuery Library -->
-<script src="assets/plugins/jquery/jquery.js"></script>
+<script src="plugins/jquery/jquery.js"></script>
 <!-- Bootstrap jQuery -->
-<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/bootstrap/js/popper.min.js"></script>
 <!-- Owl caeousel -->
-<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-<script src="assets/plugins/slick-carousel/slick.min.js"></script>
-<script src="assets/plugins/magnific-popup/magnific-popup.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script></script>
+<script src="plugins/magnific-popup/magnific-popup.js"></script>
 <!-- Instagram Feed Js -->
-<script src="assets/plugins/instafeed-js/instafeed.min.js"></script>
+<script src="plugins/instafeed-js/instafeed.min.js"></script>
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
-<script src="assets/plugins/google-map/gmap.js"></script>
+<script src="plugins/google-map/gmap.js"></script>
 <!-- main js -->
-<script src="assets/js/custom.js"></script>
+<script src="js/custom.js"></script>
 
 
 </body>
