@@ -23,7 +23,7 @@
 			</div>
 
 			<div class="sidebar-widget mb-5 ">
-				<h4 class="text-center widget-title">May Be İntresting</h4>
+				<h4 class="text-center widget-title">YOU MAY ALSO LİKE</h4>
 
 				@forelse($randarticles as $randarticle) 
 
@@ -65,11 +65,11 @@
 				</ul>
 			</div>
 
-			<div class="sidebar-widget subscribe mb-5">
+		<!--	<div class="sidebar-widget subscribe mb-5">
 				<h4 class="text-center widget-title">Newsletter</h4>
 				<input type="text" class="form-control" placeholder="Email Address">
 				<a href="#" class="btn btn-primary d-block mt-3">Sign Up</a>
-			</div>
+			</div> -->
 
 			<div class="sidebar-widget sidebar-adv mb-5">
 				<a href="#"><img src="assets/images/sidebar-banner3.png" alt="" class="img-fluid w-100"></a>

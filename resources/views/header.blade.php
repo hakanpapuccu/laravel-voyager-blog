@@ -4,6 +4,7 @@
 <html lang="en">
 
 <head>
+    <base href="/public">
     <meta charset="utf-8">
     <title>{{setting('site.title')}}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

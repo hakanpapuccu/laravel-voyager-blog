@@ -12,7 +12,7 @@ class HomeController extends Controller
 {
     public function index() {
 
-        $articles=Article::orderBy('created_at' , 'DESC')->paginate(3);
+        $articles=Article::orderBy('created_at' , 'DESC')->paginate(4);
         $articleslimit=Article::orderBy('created_at' , 'DESC')->limit(3)->get();
         $randarticles=Article::inRandomOrder()->limit(3)->get();
         $categories=Category::all();
