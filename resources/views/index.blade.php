@@ -83,13 +83,15 @@
 					
 				</div>
 
-				<div class="pagination mt-5 pt-4">
-					<ul class="list-inline">
+				<div class="row pagination mt-5 pt-4">
+
+					{{$articles->links('pagination::bootstrap-4')}}
+				<!--	<ul class="list-inline">
 						<li class="list-inline-item"><a href="#" class="active">1</a></li>
 						<li class="list-inline-item"><a href="#">2</a></li>
 						<li class="list-inline-item"><a href="#">3</a></li>
 						<li class="list-inline-item"><a href="#" class="prev-posts"><i class="ti-arrow-right"></i></a></li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
 

@@ -55,7 +55,7 @@
                       <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                       <li class="nav-item"><a href="fashion.html" class="nav-link">Category</a></li>
                       
-                      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                      <li class="nav-item"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>
                       <li class="nav-item d-lg-none"><div class="search_toggle p-3 d-inline-block bg-white"><i class="ti-search"></i></div></li>
                   </ul>
               </div>
