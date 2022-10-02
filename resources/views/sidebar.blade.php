@@ -72,7 +72,7 @@
 			</div> -->
 
 			<div class="sidebar-widget sidebar-adv mb-5">
-				<a href="#"><img src="assets/images/sidebar-banner3.png" alt="" class="img-fluid w-100"></a>
+				<a href="#"><img src="images/sidebar-banner3.png" alt="" class="img-fluid w-100"></a>
 			</div>
 
 		</div>
